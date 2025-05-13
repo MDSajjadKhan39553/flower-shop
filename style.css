@@ -22,7 +22,7 @@ button{
     padding: 15px 28px;
     cursor: pointer;
 }
-header{
+header, .hot-deal{
     background-color:rgba(229, 84, 115, 0.10);
 }
 .container{
@@ -30,6 +30,7 @@ header{
     max-width: 1440px;
     margin: 0 auto;
 }
+/* -----------------------------------banner section-------------------------------------- */
 .banner{
     display: flex;
     align-items: center;
@@ -49,6 +50,7 @@ header{
     width: 100%;
     vertical-align: middle;
 }
+/* ------------------------------------------------frature area----------------------------------------------- */
 .featured-heading{
     max-width: 500px;
     text-align: center;
@@ -73,7 +75,6 @@ header{
     gap: 20px;
 }
 .featured-content .flower .flower-img{
-    background: #e89b9b;
     border-radius: 300px 300px 0 0;
     padding: 30px 25px 0;
     height: 500px;
@@ -84,11 +85,160 @@ header{
     width: 100%;
 }
 .featured-content .flower .pink{
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(167, 33, 98, 0.149);
 }
 .featured-content .flower .blue{
-    background: rgba(5, 151, 160, 0.15);
+    background: rgba(5, 151, 160, 0.149);
 }
 .featured-content .flower .green{
-    background: rgba(71, 125, 17, 0.15);
+    background: rgba(71, 125, 17, 0.149);
+}
+.featured-content .flower p{
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 146%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #272727;
+}
+/* ---------------------------------support card area----------------------------------------- */
+.support-card{
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.card{
+    padding: 45px 0;
+    align-items: center;
+    text-align: center;
+
+}
+/* -----------------------------------------hot deal area ---------------------------------------- */
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+}
+.hot-deal .text{
+    width: 75%;
+    max-width: 550px;
+    margin-bottom: 32px;
+}
+.hot-deal .container .text h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 24px;
+}
+.hot-deal .container .text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 24px;
+}
+.hot-deal .img{
+    max-width: 318px;
+}
+/* -----------------------------------------------------sample area---------------------------------------- */
+.sample .sample-text{
+    text-align: center;
+    margin-top: 75px;
+}
+.sample .sample-text h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 16px;
+}
+.sample .sample-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 16px;
+    margin: 35px 420px;
+
+}
+.sample .sample-photo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -----------------------------------subcribs----------------------------  */
+.subcribs-bg{
+    background-image: url('image/Rectangle\ 9.png');
+    padding: 122px 0;
+}
+.subcribs{
+    margin: 125px 0;
+}
+.subcribs .subcribs-text *{
+    text-align: center;
+    margin-bottom: 26px;
+}
+.subcribs .subcribs-text h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+}
+.subcribs .subcribs-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: rgba(39, 39, 39, 0.6);
+}
+.subcribs-button form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.subcribs-button form input{
+    max-width: 600px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.6);
+    padding-left: 10px;
+}
+/* ------------------------------------------footer---------------------------------- */
+footer{
+    background-color:  #111010;
+}
+.copy-right-main{
+        padding: 100px 0;
+}
+footer *{
+    margin-bottom: 16px;
+
+}
+footer h2{
+    font-weight: 800;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 420px;
+}
+footer .copy-right{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
 }
